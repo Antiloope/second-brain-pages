@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cómo Second Brain accede, utiliza, almacena y protege los datos de su titular y de las integraciones con Google.">
+    <meta name="theme-color" content="#2457c5">
+    <title>Política de privacidad — Second Brain</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Second Brain, inicio">
+        <img src="assets/favicon.svg" width="36" height="36" alt="">
+        <span>Second Brain</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="privacy.html" aria-current="page">Privacidad</a>
+      </nav>
+    </header>
+    <main id="contenido" class="policy">
+      <h1>Política de privacidad</h1>
+      <p class="updated">Última actualización: <time datetime="2026-10-03">3 de octubre de 2026</time>.</p>
+      <p class="lead">Esta política describe el tratamiento de los datos en Second Brain, una aplicación privada de organización personal mantenida por Antiloope.</p>
+      <nav class="contents" aria-label="Contenido de la política">
+        <a href="#datos">Datos y uso</a>
+        <a href="#almacenamiento">Almacenamiento</a>
+        <a href="#compartir">Transferencias</a>
+        <a href="#control">Control de los datos</a>
+        <a href="#sitio">Este sitio</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <section id="datos">
+        <h2>Datos a los que accede y para qué los usa</h2>
+        <p>La aplicación guarda la información que introduce su titular: notas, tareas, proyectos, etiquetas, listas e historial de compras y archivos adjuntos. Se utiliza para ofrecer sus funciones de organización personal.</p>
+        <p>Las conexiones con Google requieren autorización del titular mediante OAuth:</p>
+        <dl class="integrations">
+          <div>
+            <dt>Google Calendar</dt>
+            <dd>Accede a eventos del calendario principal, incluidos títulos, descripciones, fechas, horarios y ubicaciones, para consultarlos, crearlos y actualizarlos desde la agenda. El permiso solicitado es de acceso a Calendar; las operaciones implementadas se realizan sobre el calendario principal.</dd>
+          </div>
+          <div>
+            <dt>Gmail</dt>
+            <dd>Accede a etiquetas y mensajes, incluidos remitentes, destinatarios, asuntos, fechas, fragmentos y cuerpos, para su consulta. El permiso de modificación permite cambiar etiquetas y enviar mensajes a la papelera cuando el titular lo solicita.</dd>
+          </div>
+          <div>
+            <dt>Google Drive</dt>
+            <dd>Cuando se habilita esta función, crea, consulta y elimina copias de seguridad cifradas para respaldar la aplicación y purgar copias antiguas. Utiliza el permiso <code>drive.file</code>, limitado a los archivos creados por la app o que el titular comparte explícitamente con ella; no solicita acceso general a todo Drive.</dd>
+          </div>
+        </dl>
+        <p>Los datos obtenidos de Google se utilizan para estas funciones, sin publicidad, venta de información ni entrenamiento de modelos de inteligencia artificial.</p>
+      </section>
+      <section id="almacenamiento">
+        <h2>Almacenamiento y protección</h2>
+        <p>La base de datos, los adjuntos y los archivos de autorización se guardan en la infraestructura propia del titular. Los tokens de acceso y renovación permiten mantener la conexión autorizada con Google y deben conservarse con acceso restringido.</p>
+        <p>Cuando se habilitan las copias de seguridad, se cifran antes de subirlas a Drive. La clave privada necesaria para recuperarlas queda bajo control del titular, fuera del servidor que produce los backups. Las copias pueden contener información personal guardada en la base y los adjuntos.</p>
+        <p>Las consultas a Calendar y Gmail pasan por el servidor de la aplicación para atender las solicitudes del titular. La conexión con las APIs de Google utiliza HTTPS.</p>
+      </section>
+      <section id="compartir">
+        <h2>Transferencias y acceso de terceros</h2>
+        <p>La aplicación intercambia con Google los datos necesarios para ejecutar las operaciones autorizadas. Si se habilitan backups remotos, Google Drive recibe los archivos cifrados.</p>
+        <p>Second Brain no vende datos ni los comparte con anunciantes. El titular administra su infraestructura y decide quién tiene acceso a ella y a las claves de recuperación.</p>
+        <p>El uso y la transferencia de información recibida de las APIs de Google se ajustan a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios API de Google</a>, incluidos sus requisitos de uso limitado.</p>
+      </section>
+      <section id="control">
+        <h2>Conservación, eliminación y revocación</h2>
+        <p>La información se conserva mientras el titular la necesita para su uso personal. Algunas operaciones de eliminación de la aplicación marcan registros como eliminados; la eliminación definitiva de registros, adjuntos y archivos de autorización requiere que el titular gestione su almacenamiento.</p>
+        <p>Las copias de seguridad pueden conservar información eliminada de la aplicación hasta que se purgan o borran. Para una eliminación completa, el titular también debe gestionar las copias locales y las almacenadas en Drive.</p>
+        <p>Podés revocar el acceso desde las <a href="https://myaccount.google.com/connections">conexiones de tu cuenta de Google</a>. La revocación impide que la app siga accediendo a Google con esa autorización; no elimina por sí sola los datos ya guardados ni las copias existentes.</p>
+      </section>
+      <section id="sitio">
+        <h2>Privacidad de este sitio informativo</h2>
+        <p>Estas páginas no tienen formularios, cookies propias, analítica ni scripts de seguimiento. No se conectan a la instancia privada de Second Brain ni muestran sus datos.</p>
+        <p>El sitio se publica mediante GitHub Pages. GitHub puede registrar datos técnicos de las visitas, como la dirección IP, por motivos de seguridad, según su <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">declaración de privacidad</a>.</p>
+      </section>
+      <section id="contacto">
+        <h2>Responsable, contacto y cambios</h2>
+        <p>El proyecto es mantenido por Antiloope. Para consultas sobre privacidad, consultá las vías de contacto del <a href="https://github.com/Antiloope">perfil de Antiloope en GitHub</a>.</p>
+        <p>Esta política se actualizará cuando cambien las funciones o el tratamiento de datos. Los usos nuevos de datos de Google se comunicarán y se solicitará autorización cuando corresponda.</p>
+      </section>
+      <a class="primary-link" href="./">Volver a la presentación de Second Brain</a>
+    </main>
+    <footer class="site-footer">
+      <span>Second Brain · Uso personal</span>
+      <a href="./">Inicio</a>
+    </footer>
+  </body>
+</html>

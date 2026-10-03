@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+*.env
+credentials.json
+google-token.json
+*.pem
+*.key
+*.age
+node_modules/
+__pycache__/
